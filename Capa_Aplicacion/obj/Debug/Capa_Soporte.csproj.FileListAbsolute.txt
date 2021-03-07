@@ -1,0 +1,12 @@
+C:\Users\SpainBarca\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\bin\Debug\Capa_Soporte.dll
+C:\Users\SpainBarca\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\bin\Debug\Capa_Soporte.pdb
+C:\Users\SpainBarca\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\obj\Debug\Capa_Soporte.csprojAssemblyReference.cache
+C:\Users\SpainBarca\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\obj\Debug\Capa_Soporte.csproj.CoreCompileInputs.cache
+C:\Users\SpainBarca\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\obj\Debug\Capa_Soporte.dll
+C:\Users\SpainBarca\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\obj\Debug\Capa_Soporte.pdb
+C:\Users\Noah\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\bin\Debug\Capa_Soporte.dll
+C:\Users\Noah\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\bin\Debug\Capa_Soporte.pdb
+C:\Users\Noah\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\obj\Debug\Capa_Soporte.csprojAssemblyReference.cache
+C:\Users\Noah\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\obj\Debug\Capa_Soporte.csproj.CoreCompileInputs.cache
+C:\Users\Noah\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\obj\Debug\Capa_Soporte.dll
+C:\Users\Noah\source\repos\BodegaMartinezAntesCapas\BodegaMartinez\Capa_Aplicacion\obj\Debug\Capa_Soporte.pdb

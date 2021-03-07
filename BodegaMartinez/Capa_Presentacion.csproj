@@ -1,0 +1,700 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{07134C38-BC53-4C23-BC3F-301B1C0D36E0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BodegaMartinez</RootNamespace>
+    <AssemblyName>MiniERP Bodega</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\holi\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>7</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>icons8-online-store-64.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>AA2FB75C3A9652EDB28C5468EF129A6CF5A71B4E</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Capa_Presentacion_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>appbodega.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Appium.Net, Version=4.2.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Appium.WebDriver.4.2.1\lib\net45\Appium.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\..\Desktop\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Castle.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.4.3.1\lib\net45\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.5.5631.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.5\lib\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.3.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="SeleniumExtras.PageObjects, Version=3.11.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetSeleniumExtras.PageObjects.3.11.0\lib\net45\SeleniumExtras.PageObjects.dll</HintPath>
+    </Reference>
+    <Reference Include="SimpleDataGridViewPaging, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SimpleDataGridViewPaging.2.0.2\lib\net45\SimpleDataGridViewPaging.dll</HintPath>
+    </Reference>
+    <Reference Include="SpreadsheetLight, Version=3.4.11.0, Culture=neutral, PublicKeyToken=32fbb46dc1730c57, processorArchitecture=MSIL">
+      <HintPath>..\packages\SpreadsheetLight.3.4.11\lib\net40\SpreadsheetLight.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\lib\net45\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.113.0\lib\net45\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.113.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.113.0\lib\net45\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Management.Instrumentation" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Telerik.Reporting, Version=13.0.19.116, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="Telerik.ReportViewer.WinForms, Version=13.0.19.116, Culture=neutral, PublicKeyToken=a9d7983dfcc261be">
+      <SpecificVersion>True</SpecificVersion>
+    </Reference>
+    <Reference Include="UIDC">
+      <HintPath>..\..\..\..\Desktop\UIDC.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.WebDriver.3.141.0\lib\net45\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support, Version=3.141.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Selenium.Support.3.141.0\lib\net45\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DATOS\ObtenerDatos.cs" />
+    <Compile Include="VISTAS\BOLETAS\formBoleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\BOLETAS\formBoleta.Designer.cs">
+      <DependentUpon>formBoleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\BOLETAS\repBoleta.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTAS\BOLETAS\repBoleta.Designer.cs">
+      <DependentUpon>repBoleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\CAJA\formCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\CAJA\formCaja.Designer.cs">
+      <DependentUpon>formCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\CAJA\formCierreCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\CAJA\formCierreCaja.Designer.cs">
+      <DependentUpon>formCierreCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\CAJA\formGastosIngresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\CAJA\formGastosIngresos.Designer.cs">
+      <DependentUpon>formGastosIngresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\CAJA\formNuevaCaja.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\CAJA\formNuevaCaja.Designer.cs">
+      <DependentUpon>formNuevaCaja.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\CATALOGO\formCatalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\CATALOGO\formCatalogo.Designer.cs">
+      <DependentUpon>formCatalogo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\CLIENTES\formClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\CLIENTES\formClientes.Designer.cs">
+      <DependentUpon>formClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CONEXION\Conexion.cs" />
+    <Compile Include="CONEXION\Datatables_tamañoAuto.cs" />
+    <Compile Include="CONEXION\Desencriptacion.cs" />
+    <Compile Include="CONEXION\Encriptacion.cs" />
+    <Compile Include="VISTAS\COPIAS_SEGURIDAD\formCopiasSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\COPIAS_SEGURIDAD\formCopiasSeguridad.Designer.cs">
+      <DependentUpon>formCopiasSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\DASHBOARD\frmDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\DASHBOARD\frmDashboard.Designer.cs">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\EMPRESA\formEmpresa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\EMPRESA\formEmpresa.Designer.cs">
+      <DependentUpon>formEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\ENCRIPTACION_BD\formEncriptarBD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\ENCRIPTACION_BD\formEncriptarBD.Designer.cs">
+      <DependentUpon>formEncriptarBD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\INSTALACION_SERVIDOR\formServidor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\INSTALACION_SERVIDOR\formServidor.Designer.cs">
+      <DependentUpon>formServidor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\INSTALACION_SERVIDOR\formSQLServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\INSTALACION_SERVIDOR\formSQLServer.Designer.cs">
+      <DependentUpon>formSQLServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formMarcas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formMarcas.Designer.cs">
+      <DependentUpon>formMarcas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formSubcategorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formSubcategorias.Designer.cs">
+      <DependentUpon>formSubcategorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\PROVEEDORES\formProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\PROVEEDORES\formProveedores.Designer.cs">
+      <DependentUpon>formProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\VENTAS\formHistorialVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\VENTAS\formHistorialVentas.Designer.cs">
+      <DependentUpon>formHistorialVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\INVENTARIOS\formEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\INVENTARIOS\formEntrada.Designer.cs">
+      <DependentUpon>formEntrada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\INVENTARIOS\formInventarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\INVENTARIOS\formInventarios.Designer.cs">
+      <DependentUpon>formInventarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\INVENTARIOS\formSalida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\INVENTARIOS\formSalida.Designer.cs">
+      <DependentUpon>formSalida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\LOGIN\formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\LOGIN\formLogin.Designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\MENUPRINCIPAL\formConocenos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\MENUPRINCIPAL\formConocenos.Designer.cs">
+      <DependentUpon>formConocenos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\MENUPRINCIPAL\formMediosPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\MENUPRINCIPAL\formMediosPago.Designer.cs">
+      <DependentUpon>formMediosPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\MENUPRINCIPAL\formMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\MENUPRINCIPAL\formMenuPrincipal.Designer.cs">
+      <DependentUpon>formMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\INVENTARIOS\formAlmacen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\INVENTARIOS\formAlmacen.Designer.cs">
+      <DependentUpon>formAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\NOTIFICACIONES\formNotificaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\NOTIFICACIONES\formNotificaciones.Designer.cs">
+      <DependentUpon>formNotificaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formImportarExcel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formImportarExcel.Designer.cs">
+      <DependentUpon>formImportarExcel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formOpcionesProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formOpcionesProductos.Designer.cs">
+      <DependentUpon>formOpcionesProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\PRODUCTOS\formProductos.Designer.cs">
+      <DependentUpon>formProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VISTAS\REPORTES\formReportes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\formReportes.Designer.cs">
+      <DependentUpon>formReportes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formAcumulado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formAcumulado.Designer.cs">
+      <DependentUpon>formAcumulado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formInventariosBajos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formInventariosBajos.Designer.cs">
+      <DependentUpon>formInventariosBajos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formMovimientos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formMovimientos.Designer.cs">
+      <DependentUpon>formMovimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formProductosInv.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formProductosInv.Designer.cs">
+      <DependentUpon>formProductosInv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formVencimientoProd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\formVencimientoProd.Designer.cs">
+      <DependentUpon>formVencimientoProd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repAcumulado.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repAcumulado.Designer.cs">
+      <DependentUpon>repAcumulado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repInventariosBajos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repInventariosBajos.Designer.cs">
+      <DependentUpon>repInventariosBajos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repKardex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repKardex.Designer.cs">
+      <DependentUpon>repKardex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repMovimientos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repMovimientos.Designer.cs">
+      <DependentUpon>repMovimientos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repProductosInv.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repProductosInv.Designer.cs">
+      <DependentUpon>repProductosInv.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repVencimiento.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Inventarios\repVencimiento.Designer.cs">
+      <DependentUpon>repVencimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Ventas\repHistorialVentas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Ventas\repHistorialVentas.Designer.cs">
+      <DependentUpon>repHistorialVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Ventas\repResumenVentas.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="VISTAS\REPORTES\Reporte_Ventas\repResumenVentas.Designer.cs">
+      <DependentUpon>repResumenVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\TARJETAS\formSeleccionarMedioPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\TARJETAS\formSeleccionarMedioPago.Designer.cs">
+      <DependentUpon>formSeleccionarMedioPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\TARJETAS\formTarjetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\TARJETAS\formTarjetas.Designer.cs">
+      <DependentUpon>formTarjetas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\USUARIOS\formUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\USUARIOS\formUsuarios.Designer.cs">
+      <DependentUpon>formUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VISTAS\VENTAS\formVentasEspera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VISTAS\VENTAS\formVentasEspera.Designer.cs">
+      <DependentUpon>formVentasEspera.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="VISTAS\BOLETAS\formBoleta.resx">
+      <DependentUpon>formBoleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\BOLETAS\repBoleta.resx">
+      <DependentUpon>repBoleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\CAJA\formCaja.resx">
+      <DependentUpon>formCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\CAJA\formCierreCaja.resx">
+      <DependentUpon>formCierreCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\CAJA\formGastosIngresos.resx">
+      <DependentUpon>formGastosIngresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\CAJA\formNuevaCaja.resx">
+      <DependentUpon>formNuevaCaja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\CATALOGO\formCatalogo.resx">
+      <DependentUpon>formCatalogo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\CLIENTES\formClientes.resx">
+      <DependentUpon>formClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\COPIAS_SEGURIDAD\formCopiasSeguridad.resx">
+      <DependentUpon>formCopiasSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\DASHBOARD\frmDashboard.resx">
+      <DependentUpon>frmDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\EMPRESA\formEmpresa.resx">
+      <DependentUpon>formEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\ENCRIPTACION_BD\formEncriptarBD.resx">
+      <DependentUpon>formEncriptarBD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\INSTALACION_SERVIDOR\formServidor.resx">
+      <DependentUpon>formServidor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\INSTALACION_SERVIDOR\formSQLServer.resx">
+      <DependentUpon>formSQLServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\PRODUCTOS\formMarcas.resx">
+      <DependentUpon>formMarcas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\PRODUCTOS\formSubcategorias.resx">
+      <DependentUpon>formSubcategorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\PROVEEDORES\formProveedores.resx">
+      <DependentUpon>formProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\VENTAS\formHistorialVentas.resx">
+      <DependentUpon>formHistorialVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\INVENTARIOS\formEntrada.resx">
+      <DependentUpon>formEntrada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\INVENTARIOS\formInventarios.resx">
+      <DependentUpon>formInventarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\INVENTARIOS\formSalida.resx">
+      <DependentUpon>formSalida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\LOGIN\formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\MENUPRINCIPAL\formConocenos.resx">
+      <DependentUpon>formConocenos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\MENUPRINCIPAL\formMediosPago.resx">
+      <DependentUpon>formMediosPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\MENUPRINCIPAL\formMenuPrincipal.resx">
+      <DependentUpon>formMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\INVENTARIOS\formAlmacen.resx">
+      <DependentUpon>formAlmacen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\NOTIFICACIONES\formNotificaciones.resx">
+      <DependentUpon>formNotificaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\PRODUCTOS\formImportarExcel.resx">
+      <DependentUpon>formImportarExcel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\PRODUCTOS\formOpcionesProductos.resx">
+      <DependentUpon>formOpcionesProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\PRODUCTOS\formProductos.resx">
+      <DependentUpon>formProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="VISTAS\REPORTES\formReportes.resx">
+      <DependentUpon>formReportes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\formAcumulado.resx">
+      <DependentUpon>formAcumulado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\formInventariosBajos.resx">
+      <DependentUpon>formInventariosBajos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\formMovimientos.resx">
+      <DependentUpon>formMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\formProductosInv.resx">
+      <DependentUpon>formProductosInv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\formVencimientoProd.resx">
+      <DependentUpon>formVencimientoProd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\repAcumulado.resx">
+      <DependentUpon>repAcumulado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\repInventariosBajos.resx">
+      <DependentUpon>repInventariosBajos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\repKardex.resx">
+      <DependentUpon>repKardex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\repMovimientos.resx">
+      <DependentUpon>repMovimientos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\repProductosInv.resx">
+      <DependentUpon>repProductosInv.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Inventarios\repVencimiento.resx">
+      <DependentUpon>repVencimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Ventas\repHistorialVentas.resx">
+      <DependentUpon>repHistorialVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\REPORTES\Reporte_Ventas\repResumenVentas.resx">
+      <DependentUpon>repResumenVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\TARJETAS\formSeleccionarMedioPago.resx">
+      <DependentUpon>formSeleccionarMedioPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\TARJETAS\formTarjetas.resx">
+      <DependentUpon>formTarjetas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\USUARIOS\formUsuarios.resx">
+      <DependentUpon>formUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VISTAS\VENTAS\formVentasEspera.resx">
+      <DependentUpon>formVentasEspera.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="appbodega.manifest" />
+    <None Include="Capa_Presentacion_TemporaryKey.pfx" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CONEXION\micifrado.xml" />
+    <None Include="Resources\Resources.png" />
+    <None Include="Resources\6030.jpg" />
+    <None Include="Resources\ada369logo.png" />
+    <None Include="Resources\advertencia.png" />
+    <None Include="Resources\amarillo.png" />
+    <None Include="Resources\azul.png" />
+    <None Include="Resources\balanza.png" />
+    <None Include="Resources\BALANZAS 1 SIN FONDO.png" />
+    <None Include="Resources\basedatoss.png" />
+    <None Include="Resources\Caja_activa.png" />
+    <None Include="Resources\caja_eliminada.png" />
+    <None Include="Resources\Caja_eliminada_oficial.png" />
+    <None Include="Resources\Caja_recien_creada.png" />
+    <None Include="Resources\calendario.png" />
+    <None Include="Resources\cobrosIcono.png" />
+    <None Include="Resources\costo.png" />
+    <None Include="Resources\detener.png" />
+    <None Include="Resources\dos.png" />
+    <None Include="Resources\euro.png" />
+    <None Include="Resources\filtrar.png" />
+    <None Include="Resources\jugar.png" />
+    <None Include="Resources\lapiz.png" />
+    <None Include="Resources\lapiz1.png" />
+    <None Include="Resources\menuCajas_claro.png" />
+    <None Include="Resources\monedas.png" />
+    <None Include="Resources\naranja.png" />
+    <None Include="Resources\negro.png" />
+    <None Include="Resources\notificacion_BLACK2.png" />
+    <None Include="Resources\oval.png" />
+    <None Include="Resources\pagosicono.png" />
+    <None Include="Resources\Rojo.png" />
+    <None Include="Resources\rosa.png" />
+    <None Include="Resources\suma.png" />
+    <None Include="Resources\supermercado.png" />
+    <None Include="Resources\tres.png" />
+    <None Include="Resources\uno.png" />
+    <None Include="Resources\verde.png" />
+    <None Include="Resources\whatsapp %281%29.png" />
+    <None Include="Resources\whatsapp.png" />
+    <Content Include="icons8-online-store-64.ico" />
+    <Content Include="VISTAS\LOGIN\embebido.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Capa_Aplicacion\Capa_Soporte.csproj">
+      <Project>{f6465512-44b0-45e4-843e-ea812cdd126a}</Project>
+      <Name>Capa_Soporte</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa_Dominio\Capa_Dominio.csproj">
+      <Project>{8094ff61-8f39-490a-85aa-0ca640ad81f9}</Project>
+      <Name>Capa_Dominio</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Capa_Persistencia\Capa_Persistencia.csproj">
+      <Project>{f00042fd-e3a8-40e3-a283-cdc5f611c212}</Project>
+      <Name>Capa_Persistencia</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.3.0\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.3.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.3.0\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.113.3\build\net45\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+</Project>

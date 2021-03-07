@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="_UpgradeWizard_Files\UpgradeWizardLog.xslt"?>
+<log>
+  <event>Get project references.</event>
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\BodegaMartinez.csproj" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\App.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\App.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\App.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\App.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\App.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\App.config" />
+  <event action="Analyze" type="Success" name="App.config" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\App.config" />
+  <event action="Analyze" type="Success" name="formCaja.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\CAJA\formCaja.resx" />
+  <event action="Analyze" type="Success" name="formCierreCaja.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\CAJA\formCierreCaja.resx" />
+  <event action="Analyze" type="Success" name="frmDashboard.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\DASHBOARD\frmDashboard.resx" />
+  <event action="Analyze" type="Success" name="formEncriptarBD.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\ENCRIPTACION_BD\formEncriptarBD.resx" />
+  <event action="Analyze" type="Success" name="Form1.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\Form1.resx" />
+  <event action="Analyze" type="Success" name="formKardex.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\INVENTARIOS\formKardex.resx" />
+  <event action="Analyze" type="Success" />
+  <event action="Analyze" type="Success" name="Register Directives" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\LOGIN\embebido.html" />
+  <event action="Analyze" type="Success" name="Assembly Directives" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\LOGIN\embebido.html" />
+  <event action="Analyze" type="Success" name="embebido.html" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\LOGIN\embebido.html" />
+  <event action="Analyze" type="Success" name="formLogin.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\LOGIN\formLogin.resx" />
+  <event action="Analyze" type="Success" name="formMenuPrincipal.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\MENUPRINCIPAL\formMenuPrincipal.resx" />
+  <event action="Analyze" type="Success" name="Assembly References" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\packages.config" />
+  <event action="Analyze" type="Success" name="Http Handlers" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\packages.config" />
+  <event action="Analyze" type="Success" name="Handlers (IIS7+)" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\packages.config" />
+  <event action="Analyze" type="Success" name="Config Sections" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\packages.config" />
+  <event action="Analyze" type="Success" name="Render Extensions" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\packages.config" />
+  <event action="Analyze" type="Success" name="Session State Providers" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\packages.config" />
+  <event action="Analyze" type="Success" name="packages.config" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\packages.config" />
+  <event action="Analyze" type="Success" name="formImportarExcel.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\PRODUCTOS\formImportarExcel.resx" />
+  <event action="Analyze" type="Success" name="formOpcionesProductos.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\PRODUCTOS\formOpcionesProductos.resx" />
+  <event action="Analyze" type="Success" name="formProductos.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\PRODUCTOS\formProductos.resx" />
+  <event action="Analyze" type="Success" name="Resources.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\Properties\Resources.resx" />
+  <event action="Analyze" type="Success" name="formUsuarios.resx" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\USUARIOS\formUsuarios.resx" />
+  <event action="Analyze" type="Success" name="BodegaMartinez" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\BodegaMartinez.csproj" />
+  <event action="Analyze" type="Success" name="BodegaMartinez" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez.sln" />
+  <event action="Backup" type="Success" name="BodegaMartinez" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\BodegaMartinez.csproj" />
+  <event action="Upgrade" type="Success" name="Assembly References" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\BodegaMartinez.csproj" />
+  <event action="Upgrade" type="Success" name="BodegaMartinez" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\BodegaMartinez.csproj" />
+  <event action="Upgrade" type="Success" name="BodegaMartinez" path="C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez.sln" />
+</log>

@@ -1,0 +1,63 @@
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\bin\Debug\BodegaMartinez.exe.config
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\bin\Debug\BodegaMartinez.exe
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\bin\Debug\BodegaMartinez.pdb
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.csprojAssemblyReference.cache
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.Form1.resources
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.Properties.Resources.resources
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.USUARIOS.formUsuarios.resources
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.csproj.GenerateResource.cache
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.csproj.CoreCompileInputs.cache
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.exe
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.pdb
+C:\Users\Noah\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.LOGIN.formLogin.resources
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\bin\Debug\BodegaMartinez.exe
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\bin\Debug\BodegaMartinez.exe.config
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.csprojAssemblyReference.cache
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.Form1.resources
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.LOGIN.formLogin.resources
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.Properties.Resources.resources
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.USUARIOS.formUsuarios.resources
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.csproj.GenerateResource.cache
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.csproj.CoreCompileInputs.cache
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.exe
+C:\Users\zenon\source\repos\BodegaMartinez\BodegaMartinez\obj\Debug\BodegaMartinez.pdb
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\bin\Debug\BodegaMartinez.exe
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\bin\Debug\BodegaMartinez.exe.config
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.csprojAssemblyReference.cache
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.CAJA.formCaja.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.DASHBOARD.frmDashboard.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.Form1.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.INVENTARIOS.formKardex.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.LOGIN.formLogin.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.MENUPRINCIPAL.formMenuPrincipal.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.Properties.Resources.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.USUARIOS.formUsuarios.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.csproj.GenerateResource.cache
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.csproj.CoreCompileInputs.cache
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.exe
+C:\Users\zenon\source\repos\BodegaMartinez - copia\BodegaMartinez\obj\Debug\BodegaMartinez.pdb
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\bin\Debug\BodegaMartinez.exe.config
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\bin\Debug\BodegaMartinez.exe
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\bin\Debug\BodegaMartinez.pdb
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.csprojAssemblyReference.cache
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.CAJA.formCaja.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.DASHBOARD.frmDashboard.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.Form1.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.INVENTARIOS.formKardex.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.LOGIN.formLogin.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.MENUPRINCIPAL.formMenuPrincipal.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.Properties.Resources.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.USUARIOS.formUsuarios.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.csproj.GenerateResource.cache
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.csproj.CoreCompileInputs.cache
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.exe
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.pdb
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.CAJA.formCierreCaja.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.ENCRIPTACION_BD.formEncriptarBD.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.PRODUCTOS.formProductos.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.PRODUCTOS.formOpcionesProductos.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\bin\Debug\SpreadsheetLight.dll
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\bin\Debug\SpreadsheetLight.xml
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.PRODUCTOS.formImportarExcel.resources
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\obj\Debug\BodegaMartinez.csproj.CopyComplete
+C:\Users\zenon\source\repos\BodegaMartinez - copia - copia\BodegaMartinez\bin\Debug\DocumentFormat.OpenXml.dll
